@@ -1,56 +1,72 @@
-## Digistore
+<div align="center">
+![Digistore Logo](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
+</div>
 
-FOSS Digital Assets Marketplace. Distribute digital assets, like a pro.
+<p align="center">
+Professional distribution of your digital assets.
+<br />
+<a href="https://empress.eco/">Visit Our Website</a>
+·
+<a href="https://github.com/empress-eco/digital_assets_marketplace/issues">Report Bug</a>
+·
+<a href="https://github.com/empress-eco/digital_assets_marketplace/issues">Request Feature</a>
+</p>
 
-[Video Demo Here](https://frappecloud.com/files/Screen%20Recording%202021-11-14%20at%209.30.31%20PM.mov)
+## About Digistore
 
-## Features
+### 📘 Overview
+Digistore is a free, open-source digital assets marketplace designed to simplify the distribution of digital assets such as PDFs, mp3s, videos, and more. It's the perfect solution for independent creators and businesses seeking a smooth, professional way to distribute their digital content.
 
-- Create, attach and list digital assets (PDFs, mp3s, videos and more..)
-- Modern and Clean UI (built using tailwindCSS)
-- Single-page application for smooth UX
-- Create products and add information (images, descriptions etc.)
-- And create differents tiers (plans) for the products.
-- Upload to S3
+### 🎆 Unique Features
+- Create, attach, and list digital assets
+- Clean, modern User Interface built with TailwindCSS for an enhanced user experience
+- Single-page application for seamless navigation
+- Add product details like images, descriptions, etc.
+- Create different tiers (plans) for your products
 
-> Different plans can have different prices and a set of assets that go with the plan.
+### 🧰 Built With
+- [TailwindCSS](https://tailwindcss.com/)
 
-## Installation
+## Technical Stack and Setup Instructions
 
-1. Install Frappe Bench
-1. Create a new site:
+### Prerequisites
+- Empress Bench
+
+### Installation
+Getting started with Digistore is easy. Follow these steps:
 
 ```bash
+# Install Empress Bench
+# Create a new site
 $ bench new-site <your-site>
-```
-
-4. Install `digistore` app
-
-```bash
-$ bench get-app https://github.com/NagariaHussain/digistore.git
+# Install `digistore` app
+$ bench get-app https://github.com/empress-eco/digital_assets_marketplace.git
 $ bench --site <your-site> install-app digistore
 ```
 
-## Demo
+## Usage
+Once installed, you can create products, plans, and attach digital assets. Users can only access their purchased assets, and purchases are made directly through Stripe.
 
-1. User Store Front
+## Contribution Guidelines
+We welcome contributions! Here's how you can contribute:
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
-![](./Images/homepage.png)
+## License and Acknowledgements
 
-2. Users can only access thier purchased assets
+### License
+This project is licensed under the MIT License. Your contributions are also licensed under the same.
 
-![](./Images/assets.png)
+### Acknowledgements
+We extend our sincere thanks to [Nagaria Hussain](https://github.com/NagariaHussain) for creating this amazing project and the [Empress community](https://Empress.io/) for their invaluable support and contributions.
 
-3. Purchase directly through Stripe
+For any assistance, please visit our [support page](https://grow.empress.eco/). We hope you enjoy using Digistore!
 
-![](./Images/productpage.png)
+### Empress Github
+[Empress-Eco](https://github.com/empress-eco/)
 
-3. Frappe Admin Interface: Let's you easily create products, plans, assets and more.
-
-![](./Images/adminui.png)
-
-![](./Images/newplan.png)
-
-#### License
-
-MIT
+### Documentation
+For further information and details, visit our [Documentation](https://grow.empress.eco/)
